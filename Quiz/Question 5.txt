@@ -1,1 +1,0 @@
-On port 53, it accepts a string request for a name, then returns a matching IP address.
