@@ -15,7 +15,7 @@
 var PrimeTable = function(){
 	/****************************************************************************
 		Public:
-			This is how I do private variables and methods in Javascript.<3
+			This is how I do public variables and methods in Javascript.<3
 	****************************************************************************/
 	this.unitTests = function(){
 		console.log("Unit Tests:");
