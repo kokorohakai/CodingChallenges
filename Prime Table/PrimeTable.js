@@ -26,11 +26,13 @@ var PrimeTable = function(){
 			If you assign it now to a single variable, it prevents it from calling size
 			and then calculating the size of the vector, each time it's called.
 			So for the sake of effeciency, it's better to just assign it to an int.
+			(P.S. this was converted from C++, javascripts arrays work exactly like C++
+			vectors.)
 		*/
 		size = primes.length;
 
 		//Now for some unit testing, to see if we got the correct results.
-		console.log("Is this vector correct? (" + size + ")");
+		console.log("Is this array correct? (" + size + ")");
 		
 		outText = " : ";					
 		for ( var i = 0; i < size; i++ ){
@@ -71,7 +73,7 @@ var PrimeTable = function(){
 		Private:
 			This is how I do private variables and methods in Javascript.<3
 	****************************************************************************/
-	var primes = new Array(); //the vector in which our primes will be stored.
+	var primes = new Array(); //the array in which our primes will be stored.
 	var mwidth; //the largest width of an integer visually.
 	var size; //the number of prime numbers we are working with.
 	var nop; //The number of prime numbers we want to work with.
@@ -108,8 +110,8 @@ var PrimeTable = function(){
 				}
 			}
 			/*
-				And then if it's prime, push our number to the vector (or stack, 
-				if you would) and increment the count by 1.
+				And then if it's prime, push our number to the array and increment 
+				the count by 1.
 			*/
 			if (isprime){
 				output.push(p);
