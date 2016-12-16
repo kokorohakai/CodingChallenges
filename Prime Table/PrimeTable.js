@@ -76,9 +76,6 @@ var PrimeTable = function(){
 	var size; //the number of prime numbers we are working with.
 	var nop; //The number of prime numbers we want to work with.
 	var outText; //a general string used for outputing text in bulk, so console.log doesn't split it apart.
-	//For HTML rendering:
-	var outputHTML;
-	var bodyNode;
 
 	function getPrimes( n ){
 		var output = new Array();
