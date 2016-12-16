@@ -89,6 +89,7 @@ class PrimeTable {
 				/*
 					Since we know no even numbers are ever prime, we can skip by 
 					two here. to speed the process up by n/2.
+					Or I guess, it's T/2.
 				*/
 				p+=2;
 			}
