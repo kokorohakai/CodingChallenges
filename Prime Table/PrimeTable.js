@@ -7,7 +7,7 @@
 	I honestly couldn't think of a quick way to do this other than trying each number. 
 	The honest quickest way, would be to have a precalculated look up array:
 
-	int primes[10] = {2,3,5,7,11,13,17,19,23,29};
+	var primes = [2,3,5,7,11,13,17,19,23,29];
 
 	But I figured for this example, you want me to calculate them. So I have written 
 	a method below that generates those for me.
