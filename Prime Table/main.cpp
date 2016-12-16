@@ -5,7 +5,7 @@ using namespace std;
 	Let's first understand prime numbers and make a few assessments here:
 	- Prime numbers, except for 2, are all odd.
 	- Odd numbers, can only ever have odd products. e.g. 9 = 3x3, all numbers are odd numbers.
-	- Prim numbers are only divisible by 1 and itself.
+	- Prime numbers are only divisible by 1 and itself.
 	The first thing we need to do is calculate the prime numbers.
 	I honestly couldn't think of a quick way to do this other than trying each number. 
 	The honest quickest way, would be to have a precalculated look up array:
@@ -13,7 +13,7 @@ using namespace std;
 	int primes[10] = {2,3,5,7,11,13,17,19,23,29};
 
 	But I figured for this example, you want me to calculate them. So I have written 
-	a method above that generates those for me.
+	a method below that generates those for me.
 */
 class PrimeTable {
 	public:
